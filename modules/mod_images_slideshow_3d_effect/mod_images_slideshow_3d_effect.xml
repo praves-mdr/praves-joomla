@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>Images Slideshow 3D Effect</name>
+	<author>joombig.com</author>
+	<creationDate>Feb 2014</creationDate>
+	<copyright>Copyright (C) 2014 joombig.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@joombig.com</authorEmail>
+	<authorUrl>www.joombig.com</authorUrl>
+	<version>1.1</version>
+	<description>IMAGES_SLIDESHOW_3D_EFFECTS_DESC</description>
+	<files>
+		<filename module="mod_images_slideshow_3d_effect">mod_images_slideshow_3d_effect.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<folder>elements/</folder>
+		<folder>language</folder>
+		<folder>assets/</folder>
+		<folder>js/</folder>
+		<folder>tmpl/</folder>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_images_slideshow_3d_effect/elements">
+			<fieldset name="basic">
+				<field type="loader" />
+				<field type="loader1" />
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+				<field name="enable_jQuery" type="radio" default="1" label="Enable/Disable jQuery" description="Select Enable/Disable">
+					<option value="1">Enable</option>
+					<option value="0">Disable</option>
+				</field>
+				<field name="width" type="text" default="100" label="Width of module(%)" description="Width of module(%)" />
+				<field name="height" type="text" default="45.5" label="Height of module(% follow width of module)" description="Height of module(% follow width of module)" />
+				<field name="path" type="foldertree" default="" directory="images" filter="" label="Image large directory" description="Select a image directory" />
+				<field name="images_display" type="list" default="5" label="Images display" description="Select images display">
+					<option value="5">5</option>
+					<option value="3">3</option>
+				</field>
+				<field name="setbackgroundcolor" type="list" default="1" label="Set background color" description="">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="backgroundcolor" type="hotcolor" default="#ffffff" label="Background color" description="Background color" />
+				<field name="speed" type="text" default="300" label="Transition Speed" description="Transition Speed" />
+				<field name="displaytitle" type="list" default="1" label="Display title image" description="Display title image">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="title_img" type="textarea" default="Title of image1;Title of image2;" label="Title of images(split by [;])" description="Title of images" />
+				<field name="textcolor" type="hotcolor1" default="#b9ecf0" label="Color title" description="Color title" />
+				<field name="short_des" type="textarea" default="Description of image1;Description of image2;" label="Description of images(split by [;])" description="Description of images" />
+				<field name="auto_load" type="list" default="1" label="Enable/Disable auto load page" description="Select Enable/Disable">
+					<option value="1">Enable</option>
+					<option value="0">Disable</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+					<option value="1">Use global</option>
+					<option value="0">No caching</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+			</fieldset>			
+		</fields>
+	</config>
+</extension>

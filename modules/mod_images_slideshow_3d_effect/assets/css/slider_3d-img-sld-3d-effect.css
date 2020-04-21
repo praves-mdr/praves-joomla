@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/* SLIDER 3D */
+/*////////////////////////////////////////////////////////////////////////////*/
+.jb01_slider_3d div {cursor:pointer;}
+.slider_3d_c {position:absolute; padding: 0 0 50px 0; background:url(gfx/slider_3d_shadow.png) repeat-x bottom; z-index:3;}
+.slider_3d_c img {display:none;}
+/*.slider_3d_r1 {position:absolute; padding: 0 0 50px 0; background:url(gfx/slider_3d_shadow.png) repeat-x bottom; z-index:2;}
+.slider_3d_r1 img {height: 169px; width:279px;display:none;}*/

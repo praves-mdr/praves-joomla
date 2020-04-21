@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style>
+  <name>testimonial slider</name>
+  <author>joombest.com</author>
+  <description>Extension for joomla 3 in joombest.com</description>
+  <version>1.0</version>
+  <files>
+    <public>
+    </public>
+    <admin></admin>
+  </files>
+  <config>
+    <fieldset name="other config">
+    </fieldset>
+  </config>
+</style>

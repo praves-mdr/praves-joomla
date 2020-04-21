@@ -1,0 +1,12 @@
+/* INTRO */
+#intro-wrapper-3d-img-sld-3d-effect	{background-position:0 50px; background-repeat:repeat-x; }
+.intro_home	{ margin:0 auto; background-repeat:no-repeat; background-position:center top;}
+.intro_desc	{ text-align:center; font-size:18px; margin:1px 0 0 0; padding:0 0 10px 0;}
+.intro_home h1, .intro_home h2, .intro_home h3, .intro_home h4, .intro_home h5	{color:#FFF;}
+.slider_subheading	{ font-size:18px;}
+
+/* SLIDERS - HEIGHT FIXES */
+.jb01_slider_3d	{margin:30px 0 0 0; position:absolute;}
+
+.intro-wrapper-3dintro-wrapper-3d-img-sld-3d-effect	{ background-position:0 50px !important;}
+.intro_home_3d	{padding:0 0 0 0;}
